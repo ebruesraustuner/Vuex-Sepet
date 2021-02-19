@@ -1,0 +1,32 @@
+button {
+    
+    border-radius: 6px;
+    padding: .75em;
+    
+    margin: .25em;
+   
+}
+
+.btn-default {
+    background-color: lightsalmon;
+    border: 1px solid lightsalmon;
+    color: #333;
+    &:hover {
+        background-color:  salmon;
+    }
+    &:focus {
+        border: 1px solid salmon;
+    }
+}
+
+.btn-opacity {
+    background-color: white;
+    border: 1px solid lightsalmon;
+    color: #333;
+    &:hover {
+        background-color:  salmon;
+    }
+    &:focus {
+        border: 1px solid salmon;
+    }
+}
